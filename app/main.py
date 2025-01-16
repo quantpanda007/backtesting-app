@@ -1,14 +1,8 @@
 import streamlit as st
 import pandas as pd
-'''
 from backtesting import run_backtest
 from plotting import plot_equity_curve
 from data_processing import load_data_from_folder
-'''
-
-from app.backtesting import run_backtest
-from app.plotting import plot_portfolio_values
-from app.data_processing import load_uploaded_data
 
 
 def main():
